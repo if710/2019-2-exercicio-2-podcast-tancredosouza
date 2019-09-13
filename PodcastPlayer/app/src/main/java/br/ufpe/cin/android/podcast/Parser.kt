@@ -114,8 +114,8 @@ object Parser {
                 pubDate = readData(parser, "pubDate")
             } else if (name == "description") {
                 description = readData(parser, "description")
-            } else if (name == "url") {
-                downloadLink = readData(parser, "url")
+            } else if (name == "guid") {
+                downloadLink = readData(parser, "guid")
             } else {
                 skip(parser)
             }

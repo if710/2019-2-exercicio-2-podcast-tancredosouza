@@ -1,0 +1,785 @@
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" version="2.0">
+    <channel>
+        <title>The Polyglot Developer Podcast</title>
+        <link>https://www.thepolyglotdeveloper.com</link>
+        <image>
+            <url>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png
+            </url>
+            <title>The Polyglot Developer Podcast</title>
+            <link>https://www.thepolyglotdeveloper.com</link>
+        </image>
+        <description>
+            Software Engineer and Developer Advocate, Nic Raboy, shares all his tips and tricks to becoming a polyglot developer. Learn about the latest trends in web, mobile, and game development and how you can quickly get ahead in becoming an incredible developer. With a background in programming languages such as Java, Android, Node.js, and Golang and a background with frameworks such as Express, Ionic Framework, NativeScript, Zend Framework, and Apache Cordova, Nic Raboy is a polyglot with a lot to share. Find complex code tutorials on my blog found at https://www.thepolyglotdeveloper.com and my YouTube channel found at https://www.youtube.com/user/nicraboy
+        </description>
+        <language>en-us</language>
+        <copyright>The Polyglot Developer copyright 2019</copyright>
+        <atom:link href="http://podcasts.thepolyglotdeveloper.com/podcast.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Thu, 12 Sep 2019 16:00:00 PDT</lastBuildDate>
+        <itunes:author>Nic Raboy</itunes:author>
+        <itunes:summary>
+            Software Engineer and Developer Advocate, Nic Raboy, shares all his tips and tricks to becoming a polyglot developer. Learn about the latest trends in web, mobile, and game development and how you can quickly get ahead in becoming an incredible developer. With a background in programming languages such as Java, Android, Node.js, and Golang and a background with frameworks such as Express, Ionic Framework, NativeScript, Zend Framework, and Apache Cordova, Nic Raboy is a polyglot with a lot to share. Find complex code tutorials on my blog found at https://www.thepolyglotdeveloper.com and my YouTube channel found at https://www.youtube.com/user/nicraboy
+        </itunes:summary>
+        <itunes:subtitle>Software development tips and tricks by Nic Raboy</itunes:subtitle>
+        <itunes:owner>
+            <itunes:name>Nic Raboy</itunes:name>
+            <itunes:email>nraboy@thepolyglotdeveloper.com</itunes:email>
+        </itunes:owner>
+        <itunes:explicit>No</itunes:explicit>
+        <itunes:keywords>
+            programming,development,web,mobile,polyglot,developer,software engineering,server,app
+        </itunes:keywords>
+        <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+        <rawvoice:rating>TV-G</rawvoice:rating>
+        <rawvoice:location>San Francisco, California</rawvoice:location>
+        <rawvoice:frequency>Monthly</rawvoice:frequency>
+        <itunes:category text="Technology"/>
+        <itunes:category text="Education"/>
+        <pubDate>Sat, 02 Jan 2016 06:00:00 PDT</pubDate>
+        <item>
+            <title>
+                TPDP001: The Requirements for Building Mobile Applications
+            </title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+1+-+The+Requirements+for+Building+Mobile+Applications.mp3
+            </link>
+            <pubDate>Sat, 02 Jan 2016 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I talk about what I feel to be requirements in developing mobile applications. I've broken these requirements into three main categories, being, the planning requirement, the execution requirement, and the post release marketing requirement. Have you ever wondered the fees for releasing your application to the various app stores or what kind of development hardware you need? Get all the information you need to get your app development business kick started. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2016/01/tpdp-episode-1-requirements-developing-mobile-applications/ on my blog. If you have questions that you'd like answered in the next episode, visit https://www.thepolyglotdeveloper.com/podcast-questions and fill out the form.
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+1+-+The+Requirements+for+Building+Mobile+Applications.mp3" length="36715125" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+1+-+The+Requirements+for+Building+Mobile+Applications.mp3
+            </guid>
+            <itunes:duration>19:07</itunes:duration>
+            <itunes:summary>
+                In this episode I talk about what I feel to be requirements in developing mobile applications. I've broken these requirements into three main categories, being, the planning requirement, the execution requirement, and the post release marketing requirement. Have you ever wondered the fees for releasing your application to the various app stores or what kind of development hardware you need? Get all the information you need to get your app development business kick started. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2016/01/tpdp-episode-1-requirements-developing-mobile-applications/ on my blog. If you have questions that you'd like answered in the next episode, visit https://www.thepolyglotdeveloper.com/podcast-questions and fill out the form.
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                mobile,android,ios,windows phone,google play,itunes,app development,java,objective-c,swift,javascript
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>
+                TPDP002: Picking the Right Mobile Development Technology for Your Needs
+            </title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+2+-+Picking+the+Right+Mobile+Development+Technology+for+Your+Needs.mp3
+            </link>
+            <pubDate>Sun, 07 Feb 2016 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I talk about my experience as a mobile developer and some of the native and hybrid apps that I've published to the various app stores like, but not limited to, Google Play and iTunes. As a developer that has used both native and hybrid for development, I discuss where I feel native mobile app development succeeds and also where it falls short, making room for hybrid technologies like Apache Cordova, Xamarin, and Telerik NativeScript. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2016/02/tpdp-episode-2-picking-the-right-mobile-development-technology-for-your-needs/ on my blog. If you have questions that you'd like answered in the next episode, visit https://www.thepolyglotdeveloper.com/podcast-questions and fill out the form.
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+2+-+Picking+the+Right+Mobile+Development+Technology+for+Your+Needs.mp3" length="60159292" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+2+-+Picking+the+Right+Mobile+Development+Technology+for+Your+Needs.mp3
+            </guid>
+            <itunes:duration>31:20</itunes:duration>
+            <itunes:summary>
+                In this episode I talk about my experience as a mobile developer and some of the native and hybrid apps that I've published to the various app stores like, but not limited to, Google Play and iTunes. As a developer that has used both native and hybrid for development, I discuss where I feel native mobile app development succeeds and also where it falls short, making room for hybrid technologies like Apache Cordova, Xamarin, and Telerik NativeScript. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2016/02/tpdp-episode-2-picking-the-right-mobile-development-technology-for-your-needs/ on my blog. If you have questions that you'd like answered in the next episode, visit https://www.thepolyglotdeveloper.com/podcast-questions and fill out the form.
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                mobile,android,ios,windows phone,app development,java,objective-c,swift,javascript,native,xamarin,nativescript,ionic framework
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>
+                TPDP003: Developer Tools that can Make You More Productive Towards Your Next Release
+            </title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+3+-+Developer+Tools+that+can+Make+You+More+Productive+Towards+Your+Next+Release.mp3
+            </link>
+            <pubDate>Sat, 05 Mar 2016 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I'm joined by two of my good friends Simon Reimler and Ray Camden where we discuss some of the software, tools and services available that can boost development and marketing productivity of your next big application. I've broken this episode into three main categories, being, tools used for planning before development or design, tools used for development and designing an application up to its release, and tools for maintaining and driving the success of an application after its been released. You'll get to know what we're using and how it might help you out in any of your development adventures. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2016/03/tpdp-episode-3-developer-tools-that-can-make-you-more-productive-towards-your-next-release/ on my blog. If you have questions that you'd like answered in the next episode, visit https://www.thepolyglotdeveloper.com/podcast-questions and fill out the form.
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+3+-+Developer+Tools+that+can+Make+You+More+Productive+Towards+Your+Next+Release.mp3" length="73189168" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+3+-+Developer+Tools+that+can+Make+You+More+Productive+Towards+Your+Next+Release.mp3
+            </guid>
+            <itunes:duration>50:49</itunes:duration>
+            <itunes:summary>
+                In this episode I'm joined by two of my good friends Simon Reimler and Ray Camden where we discuss some of the software, tools and services available that can boost development and marketing productivity of your next big application. I've broken this episode into three main categories, being, tools used for planning before development or design, tools used for development and designing an application up to its release, and tools for maintaining and driving the success of an application after its been released. You'll get to know what we're using and how it might help you out in any of your development adventures. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2016/03/tpdp-episode-3-developer-tools-that-can-make-you-more-productive-towards-your-next-release/ on my blog. If you have questions that you'd like answered in the next episode, visit https://www.thepolyglotdeveloper.com/podcast-questions and fill out the form.
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                developer,advocate,blogging,development,hybrid,app,mobile,vscode,atom,genymotion,android,ios,tools,developer
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>
+                TPDP004: What is All This Mobile First, Offline First, and API First Jargon?
+            </title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+4+-+What+is+All+This+Mobile+First%2C+Offline+First%2C+and+API+First+Jargon.mp3
+            </link>
+            <pubDate>Sat, 02 Apr 2016 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I'm joined by a former colleague, and friend, William Hoang where we discuss a lot of jargon that comes up with modern software development. I've broken this episode into a few parts. We're going to discuss mobile first development, API first development, and offline first development and how you should choose between them when planning or developing an application. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2016/04/tpdp-episode-4-what-is-all-this-mobile-first-offline-first-and-api-first-jargon/ on my blog. If you have questions that you'd like answered in the next episode, visit https://www.thepolyglotdeveloper.com/podcast-questions and fill out the form.
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+4+-+What+is+All+This+Mobile+First%2C+Offline+First%2C+and+API+First+Jargon.mp3" length="45726742" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+4+-+What+is+All+This+Mobile+First%2C+Offline+First%2C+and+API+First+Jargon.mp3
+            </guid>
+            <itunes:duration>31:45</itunes:duration>
+            <itunes:summary>
+                In this episode I'm joined by a former colleague, and friend, William Hoang where we discuss a lot of jargon that comes up with modern software development. I've broken this episode into a few parts. We're going to discuss mobile first development, API first development, and offline first development and how you should choose between them when planning or developing an application. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2016/04/tpdp-episode-4-what-is-all-this-mobile-first-offline-first-and-api-first-jargon/ on my blog. If you have questions that you'd like answered in the next episode, visit https://www.thepolyglotdeveloper.com/podcast-questions and fill out the form.
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                offline first,api first,mobile first,development,jargon,devops
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>
+                TPDP005: Developing Mobile Apps with Telerik NativeScript
+            </title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+5+-+Developing+Mobile+Apps+with+Telerik+NativeScript.mp3
+            </link>
+            <pubDate>Tue, 10 May 2016 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I'm joined by TJ VanToll, Developer Advocate at Telerik, where we discuss the cross platform mobile development framework NativeScript. We cover everything from what is NativeScript, what do you need to start developing NativeScript applications, and how it differs or why you should use it versus native development or development with a different hybrid mobile framework. TJ talks about where things are headed when it comes to mobile development, who is using Telerik NativeScript to develop apps, and how Angular 2 fits into the framework. This is the most exciting episode yet on The Polyglot Developer Podcast and I recommend listening to it if you're interested in mobile application development, whether it be for personal or for your business. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2016/05/tpdp-episode-5-developing-mobile-apps-telerik-nativescript/ on my blog. If you have questions that you'd like answered in the next episode, visit https://www.thepolyglotdeveloper.com/podcast-questions and fill out the form.
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+5+-+Developing+Mobile+Apps+with+Telerik+NativeScript.mp3" length="72725860" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+5+-+Developing+Mobile+Apps+with+Telerik+NativeScript.mp3
+            </guid>
+            <itunes:duration>50:30</itunes:duration>
+            <itunes:summary>
+                In this episode I'm joined by TJ VanToll, Developer Advocate at Telerik, where we discuss the cross platform mobile development framework NativeScript. We cover everything from what is NativeScript, what do you need to start developing NativeScript applications, and how it differs or why you should use it versus native development or development with a different hybrid mobile framework. TJ talks about where things are headed when it comes to mobile development, who is using Telerik NativeScript to develop apps, and how Angular 2 fits into the framework. This is the most exciting episode yet on The Polyglot Developer Podcast and I recommend listening to it if you're interested in mobile application development, whether it be for personal or for your business. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2016/05/tpdp-episode-5-developing-mobile-apps-telerik-nativescript/ on my blog. If you have questions that you'd like answered in the next episode, visit https://www.thepolyglotdeveloper.com/podcast-questions and fill out the form.
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                nativescript,telerik,kendo ui,mobile,apps,android,ios,javascript,angular 2,css,angularjs
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>
+                TPDP006: PouchDB and its Usefulness in Browser Based Development
+            </title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+6+-+PouchDB+and+its+Usefulness+in+Browser+Based+Development.mp3
+            </link>
+            <pubDate>Fri, 10 Jun 2016 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I am joined by Nolan Lawson, one of the main contributors on the PouchDB open source project. We discuss everything from what is PouchDB, what does it do under the covers, what development platforms are supported, and what does it aim to accomplish that might have been particularly difficult with another tool. This episode is targeted towards web and mobile developers who include JavaScript as one of the core technologies in their stack because PouchDB is in fact a JavaScript wrapper. I've personally used PouchDB in the past because it makes it incredibly easy to synchronize data with remote databases via a web or mobile application. If you're investigating sync solutions, Nolan and I have you covered in this episode. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2016/06/tpdp-episode-6-pouchdb-usefulness-browser-based-development/ If you have questions that you'd like answered in the next episode, visit https://www.thepolyglotdeveloper.com/podcast-questions and fill out the form.
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+6+-+PouchDB+and+its+Usefulness+in+Browser+Based+Development.mp3" length="54928322" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+6+-+PouchDB+and+its+Usefulness+in+Browser+Based+Development.mp3
+            </guid>
+            <itunes:duration>38:09</itunes:duration>
+            <itunes:summary>
+                In this episode I am joined by Nolan Lawson, one of the main contributors on the PouchDB open source project. We discuss everything from what is PouchDB, what does it do under the covers, what development platforms are supported, and what does it aim to accomplish that might have been particularly difficult with another tool. This episode is targeted towards web and mobile developers who include JavaScript as one of the core technologies in their stack because PouchDB is in fact a JavaScript wrapper. I've personally used PouchDB in the past because it makes it incredibly easy to synchronize data with remote databases via a web or mobile application. If you're investigating sync solutions, Nolan and I have you covered in this episode. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2016/06/tpdp-episode-6-pouchdb-usefulness-browser-based-development/ If you have questions that you'd like answered in the next episode, visit https://www.thepolyglotdeveloper.com/podcast-questions and fill out the form.
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                pouchdb,couchdb,couchbase,database,nosql,javascript,web,mobile,application
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>
+                TPDP007: Developing for the Internet of Things (IoT) and Where to Start
+            </title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+7+-+Developing+for+the+Internet+of+Things+(IoT)+and+Where+to+Start.mp3
+            </link>
+            <pubDate>Fri, 29 Jul 2016 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I am joined by Jen Looper, a software developer and advocate for the Internet of Things (IoT). We discuss everything from the basics behind IoT, what is some good hardware to get started with, what programming skills you need for IoT development, and where to get help or find resources to boost your learning. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2016/07/tpdp-episode-7-developing-internet-things-iot-start/ If you have questions that you'd like answered in the next episode, visit https://www.thepolyglotdeveloper.com/podcast-questions and fill out the form.
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+7+-+Developing+for+the+Internet+of+Things+(IoT)+and+Where+to+Start.mp3" length="29296767" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+7+-+Developing+for+the+Internet+of+Things+(IoT)+and+Where+to+Start.mp3
+            </guid>
+            <itunes:duration>30:31</itunes:duration>
+            <itunes:summary>
+                In this episode I am joined by Jen Looper, a software developer and advocate for the Internet of Things (IoT). We discuss everything from the basics behind IoT, what is some good hardware to get started with, what programming skills you need for IoT development, and where to get help or find resources to boost your learning. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2016/07/tpdp-episode-7-developing-internet-things-iot-start/ If you have questions that you'd like answered in the next episode, visit https://www.thepolyglotdeveloper.com/podcast-questions and fill out the form.
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                iot,internet of things,raspberry pi,photo,particle,arduino,javascript,python,hackster,adafruit
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>
+                TPDP008: Asynchronous and Event-Based Programming with RxJS
+            </title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+8+-+Asynchronous+and+Event-Based+Programming+with+RxJS.mp3
+            </link>
+            <pubDate>Sat, 13 Aug 2016 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I am joined by Ben Lesh, a senior software engineer at Netflix. Ben is one of the lead developers for RxJS, a reactive extension set for JavaScript, and a core component in the software stack at Netflix. Here we discuss everything from what is RxJS, to how it differs from common promises and callbacks in JavaScript. We also discuss who is using it and how it is playing a critical role in Angular 2. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2016/08/asynchronous-event-based-programming-rxjs/ If you have questions that you'd like answered in the next episode, visit https://www.thepolyglotdeveloper.com/podcast-questions and fill out the form.
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+8+-+Asynchronous+and+Event-Based+Programming+with+RxJS.mp3" length="31175493" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+8+-+Asynchronous+and+Event-Based+Programming+with+RxJS.mp3
+            </guid>
+            <itunes:duration>32:28</itunes:duration>
+            <itunes:summary>
+                In this episode I am joined by Ben Lesh, a senior software engineer at Netflix. Ben is one of the lead developers for RxJS, a reactive extension set for JavaScript, and a core component in the software stack at Netflix. Here we discuss everything from what is RxJS, to how it differs from common promises and callbacks in JavaScript. We also discuss who is using it and how it is playing a critical role in Angular 2. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2016/08/asynchronous-event-based-programming-rxjs/ If you have questions that you'd like answered in the next episode, visit https://www.thepolyglotdeveloper.com/podcast-questions and fill out the form.
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                rxjs,reactive extensions,javascript,netflix,angular 2,promises,callbacks
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>TPDP009: An Ember in the Land of Web Frameworks</title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+9+-+An+Ember+in+the+Land+of+Web+Frameworks.mp3
+            </link>
+            <pubDate>Sat, 03 Sep 2016 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I am joined by Tracy Lee, owner of Modern Web and advocate of Ember.js, as well as Taras Mankovski who runs Ember Sherpa. Here we discuss a very popular JavaScript framework called Ember.js and the conveniences it offers in comparison to other, possibly similar front-end frameworks like React and Angular. This episode includes information on tooling and development best practices as well. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2016/09/tpdp-episode-9-an-ember-in-the-land-of-web-frameworks/ If you have questions that you'd like answered in the next episode, visit https://www.thepolyglotdeveloper.com/podcast-questions and fill out the form.
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+9+-+An+Ember+in+the+Land+of+Web+Frameworks.mp3" length="44395543" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+9+-+An+Ember+in+the+Land+of+Web+Frameworks.mp3
+            </guid>
+            <itunes:duration>46:14</itunes:duration>
+            <itunes:summary>
+                In this episode I am joined by Tracy Lee, owner of Modern Web and advocate of Ember.js, as well as Taras Mankovski who runs Ember Sherpa. Here we discuss a very popular JavaScript framework called Ember.js and the conveniences it offers in comparison to other, possibly similar front-end frameworks like React and Angular. This episode includes information on tooling and development best practices as well. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2016/09/tpdp-episode-9-an-ember-in-the-land-of-web-frameworks/ If you have questions that you'd like answered in the next episode, visit https://www.thepolyglotdeveloper.com/podcast-questions and fill out the form.
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                emberjs,ember,javascript,modern web,ember sherpa,framework,frontend,development
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>TPDP010: All About the Google App Engine</title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+10+-+All+About+The+Google+App+Engine.mp3
+            </link>
+            <pubDate>Mon, 03 Oct 2016 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I am joined by Terry Ryan, Developer Advocate at Google. Here we discuss the Google App Engine platform, what it is, and when it is a relevant solution to use for a major web application. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2016/10/tpdp-episode-10-google-app-engine/ If you have questions that you'd like answered in the next episode, visit https://www.thepolyglotdeveloper.com/podcast-questions and fill out the form.
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+10+-+All+About+The+Google+App+Engine.mp3" length="37595347" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+10+-+All+About+The+Google+App+Engine.mp3
+            </guid>
+            <itunes:duration>39:09</itunes:duration>
+            <itunes:summary>
+                In this episode I am joined by Terry Ryan, Developer Advocate at Google. Here we discuss the Google App Engine platform, what it is, and when it is a relevant solution to use for a major web application. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2016/10/tpdp-episode-10-google-app-engine/ If you have questions that you'd like answered in the next episode, visit https://www.thepolyglotdeveloper.com/podcast-questions and fill out the form.
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                google app engine,gae,scalable,web application,hosting
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>
+                TPDP011: Continuous Integration and Deployment for the Polyglot Developer
+            </title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+11+-+Continuous+Integration+and+Deployment+for+the+Polyglot+Developer.mp3
+            </link>
+            <pubDate>Fri, 04 Nov 2016 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I am joined by Ivan Nemytchenko from the open source company, GitLab. Here we take some time to explain what continuous integration and deployment is and how to get started with it in your development process. GitLab offers a free CI / CD solution called GitLab CI, but there are other solutions such as Jenkins and Travis CI as well. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2016/11/tpdp-episode-11-continuous-integration-deployment-polyglot-developer/ If you have questions that you'd like answered in the next episode, visit https://www.thepolyglotdeveloper.com/podcast-questions and fill out the form.
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+11+-+Continuous+Integration+and+Deployment+for+the+Polyglot+Developer.mp3" length="23732894" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2016/TPDP+-+Episode+11+-+Continuous+Integration+and+Deployment+for+the+Polyglot+Developer.mp3
+            </guid>
+            <itunes:duration>24:43</itunes:duration>
+            <itunes:summary>
+                In this episode I am joined by Ivan Nemytchenko from the open source company, GitLab. Here we take some time to explain what continuous integration and deployment is and how to get started with it in your development process. GitLab offers a free CI / CD solution called GitLab CI, but there are other solutions such as Jenkins and Travis CI as well. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2016/11/tpdp-episode-11-continuous-integration-deployment-polyglot-developer/ If you have questions that you'd like answered in the next episode, visit https://www.thepolyglotdeveloper.com/podcast-questions and fill out the form.
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                continuous integration,continuous deployment,ci,cd,gitlab,unit testing,travis ci,jenkins
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>
+                TPDP012: Getting the Help You Need on Stack Overflow, Blogs, and Forum Boards
+            </title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2017/TPDP+-+Episode+12+-+Getting+the+Help+You+Need+on+Stack+Overflow%2C+Blogs%2C+and+Forum+Boards.mp3
+            </link>
+            <pubDate>Thu, 09 Feb 2017 16:00:00 PDT</pubDate>
+            <description>
+                I record a lot of programming videos and write even more tutorials. With all this content comes a lot of questions from my subscribers, some questions being better than others. This brought be to the topic of explaining how to ask a good question and get the best possible help from the developer community in places like Stack Overflow and other outlets such as The Polyglot Developer. I want to make sure all my subscribers succeed in their careers as developers. Following the simple best practices as mentioned in this episode will get you great help wherever you ask for it. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2015/10/how-to-get-programming-help-in-forums-and-on-my-blog/ If you have questions that you'd like answered in the next episode, visit https://www.thepolyglotdeveloper.com/podcast-questions and fill out the form.
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2017/TPDP+-+Episode+12+-+Getting+the+Help+You+Need+on+Stack+Overflow%2C+Blogs%2C+and+Forum+Boards.mp3" length="12367747" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2017/TPDP+-+Episode+12+-+Getting+the+Help+You+Need+on+Stack+Overflow%2C+Blogs%2C+and+Forum+Boards.mp3
+            </guid>
+            <itunes:duration>12:53</itunes:duration>
+            <itunes:summary>
+                I record a lot of programming videos and write even more tutorials. With all this content comes a lot of questions from my subscribers, some questions being better than others. This brought be to the topic of explaining how to ask a good question and get the best possible help from the developer community in places like Stack Overflow and other outlets such as The Polyglot Developer. I want to make sure all my subscribers succeed in their careers as developers. Following the simple best practices as mentioned in this episode will get you great help wherever you ask for it. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2015/10/how-to-get-programming-help-in-forums-and-on-my-blog/ If you have questions that you'd like answered in the next episode, visit https://www.thepolyglotdeveloper.com/podcast-questions and fill out the form.
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                tutorials,help,questions,stack overflow,blog,forum,asking,tone,format,developers,programming,development
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>
+                TPDP013: The Go Programming Language and Where it Fits in Modern Development
+            </title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2017/TPDP+-+Episode+13+-+The+Go+Programming+Language+and+Where+it+Fits+in+Modern+Development.mp3
+            </link>
+            <pubDate>Mon, 27 Mar 2017 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I am joined by Matt Holt, creator of the very popular web server known as Caddy. Instead of focusing on Caddy in this particular episode, we focus on the Go programming language, which was used to make Caddy so successful. The Go programming language, sometimes referred to as Golang, is a very popular alternative to languages like PHP and Node.js because it is very fast, efficient, and lightweight in comparison. Both Matt and I explore why this is and how you can use it in your own applications. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2017/03/tpdp-episode-13-go-programming-language-modern-development/ If you have questions that you'd like answered in the next episode, visit https://www.thepolyglotdeveloper.com/podcast-questions and fill out the form.
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2017/TPDP+-+Episode+13+-+The+Go+Programming+Language+and+Where+it+Fits+in+Modern+Development.mp3" length="30866204" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2017/TPDP+-+Episode+13+-+The+Go+Programming+Language+and+Where+it+Fits+in+Modern+Development.mp3
+            </guid>
+            <itunes:duration>32:09</itunes:duration>
+            <itunes:summary>
+                In this episode I am joined by Matt Holt, creator of the very popular web server known as Caddy. Instead of focusing on Caddy in this particular episode, we focus on the Go programming language, which was used to make Caddy so successful. The Go programming language, sometimes referred to as Golang, is a very popular alternative to languages like PHP and Node.js because it is very fast, efficient, and lightweight in comparison. Both Matt and I explore why this is and how you can use it in your own applications. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2017/03/tpdp-episode-13-go-programming-language-modern-development/ If you have questions that you'd like answered in the next episode, visit https://www.thepolyglotdeveloper.com/podcast-questions and fill out the form.
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                golang,go,matt holt,programming,modern development,caddy
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>TPDP014: Object Storage for Application Developers</title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2017/TPDP+-+Episode+14+-+Object+Storage+for+Application+Developers.mp3
+            </link>
+            <pubDate>Wed, 14 Jun 2017 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I am joined by Krishna Srinivas, engineer at the open source object storage company, Minio. Krishna and I discuss object storage which is different than database storage or plain filesystem storage. A popular object solution is Amazon S3, but it is not the only solution. Object storage is great for protecting data from corruption or loss as well as providing a great way to work with it via standard HTTP. This makes it great for application development. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2017/06/tpdp-episode-14-object-storage-application-developers/ If you have questions that you'd like answered in the next episode, visit https://www.thepolyglotdeveloper.com/podcast-questions and fill out the form.
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2017/TPDP+-+Episode+14+-+Object+Storage+for+Application+Developers.mp3" length="30559004" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2017/TPDP+-+Episode+14+-+Object+Storage+for+Application+Developers.mp3
+            </guid>
+            <itunes:duration>31:50</itunes:duration>
+            <itunes:summary>
+                In this episode I am joined by Krishna Srinivas, engineer at the open source object storage company, Minio. Krishna and I discuss object storage which is different than database storage or plain filesystem storage. A popular object solution is Amazon S3, but it is not the only solution. Object storage is great for protecting data from corruption or loss as well as providing a great way to work with it via standard HTTP. This makes it great for application development. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2017/06/tpdp-episode-14-object-storage-application-developers/ If you have questions that you'd like answered in the next episode, visit https://www.thepolyglotdeveloper.com/podcast-questions and fill out the form.
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                minio,object storage,s3,aws,krishna srinivas,golang
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>TPDP015: Authorizing Access with OAuth</title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2017/TPDP+-+Episode+14+-+Object+Storage+for+Application+Developers.mp3
+            </link>
+            <pubDate>Tue, 02 Aug 2017 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I am joined by Ryan Chenkie, Developer Advocate at the internet safety company, Auth0. Ryan and I discuss OAuth and how it can be used for authorizing third-party access to your data. If you've been keeping up, you'll remember that I wrote the very popular ng-cordova-oauth and ng2-cordova-oauth libraries for Ionic Framework that allowed mobile applications to work with OAuth providers like Google and Facebook. There are a lot of common questions around the protocol such as storing tokens, refreshing tokens, and implementing OAuth logic within code. The goal in this episode is to clear up the common questions and give everyone a better understanding on how OAuth works as well as the best practicies. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2017/08/tpdp-e15-authorizing-access-oauth/
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2017/TPDP+-+Episode+15+-+Authorizing+Access+with+OAuth.mp3" length="33887631" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2017/TPDP+-+Episode+15+-+Authorizing+Access+with+OAuth.mp3
+            </guid>
+            <itunes:duration>35:18</itunes:duration>
+            <itunes:summary>
+                In this episode I am joined by Ryan Chenkie, Developer Advocate at the internet safety company, Auth0. Ryan and I discuss OAuth and how it can be used for authorizing third-party access to your data. If you've been keeping up, you'll remember that I wrote the very popular ng-cordova-oauth and ng2-cordova-oauth libraries for Ionic Framework that allowed mobile applications to work with OAuth providers like Google and Facebook. There are a lot of common questions around the protocol such as storing tokens, refreshing tokens, and implementing OAuth logic within code. The goal in this episode is to clear up the common questions and give everyone a better understanding on how OAuth works as well as the best practicies. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2017/08/tpdp-e15-authorizing-access-oauth/
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                oauth,auth0,ryan chenkie,provider,authorization,authentication,jwt,token,api,security
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>TPDP016: Job Hunting as a Software Engineer</title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2018/TPDP+-+Episode+16+-+Job+Hunting+as+a+Software+Engineer.mp3
+            </link>
+            <pubDate>Tue, 30 Jan 2018 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I am joined by Brenda itReverie, a fellow application developer that I met when I was at NativeScript Developer Days 2017. Brenda and I shift the focus away from software development for a moment and focus on hunting down and locking in a job in application development, a subject that is long, stressful, and never pleasant. In this episode we answer all your questions regarding getting called by recruiters and tackling those complicated algorithm and coding challenges given in the various interviews. The goal of this episode is to give you some pointers towards being successful and giving you something to anticipate to make the process a little less stressful. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2018/01/tpdp-e16-job-hunting-software-engineer/
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2018/TPDP+-+Episode+16+-+Job+Hunting+as+a+Software+Engineer.mp3" length="36027582" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2018/TPDP+-+Episode+16+-+Job+Hunting+as+a+Software+Engineer.mp3
+            </guid>
+            <itunes:duration>37:31</itunes:duration>
+            <itunes:summary>
+                In this episode I am joined by Brenda itReverie, a fellow application developer that I met when I was at NativeScript Developer Days 2017. Brenda and I shift the focus away from software development for a moment and focus on hunting down and locking in a job in application development, a subject that is long, stressful, and never pleasant. In this episode we answer all your questions regarding getting called by recruiters and tackling those complicated algorithm and coding challenges given in the various interviews. The goal of this episode is to give you some pointers towards being successful and giving you something to anticipate to make the process a little less stressful. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2018/01/tpdp-e16-job-hunting-software-engineer/
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                application,development,job,interview,recruiting,hunting,career,advice
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>TPDP017: Going FaaS on Serverless with OpenWhisk</title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2018/TPDP+-+Episode+17+-+Going+FaaS+on+Serverless+with+OpenWhisk.mp3
+            </link>
+            <pubDate>Mon, 19 Feb 2018 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I'm joined by Carlos Santana who works on the Cloud Functions team at IBM. Carlos and I get all your questions answered when it comes to what serverless is and how you can create your own very scalable functions that can be deployed on it. We name drop a few providers such as AWS Lambda and Azure Functions, but the focus is centered around IBM's Cloud Functions service which uses Apache OpenWhisk. If you're into developing web applications, learning about functions as a service (FaaS) is for you. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2018/02/tpdp-episode-17-faas-serverless-openwhisk/
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2018/TPDP+-+Episode+17+-+Going+FaaS+on+Serverless+with+OpenWhisk.mp3" length="41020940" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2018/TPDP+-+Episode+17+-+Going+FaaS+on+Serverless+with+OpenWhisk.mp3
+            </guid>
+            <itunes:duration>42:44</itunes:duration>
+            <itunes:summary>
+                In this episode I'm joined by Carlos Santana who works on the Cloud Functions team at IBM. Carlos and I get all your questions answered when it comes to what serverless is and how you can create your own very scalable functions that can be deployed on it. We name drop a few providers such as AWS Lambda and Azure Functions, but the focus is centered around IBM's Cloud Functions service which uses Apache OpenWhisk. If you're into developing web applications, learning about functions as a service (FaaS) is for you. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2018/02/tpdp-episode-17-faas-serverless-openwhisk/
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                serverless,functions as a service,faas,framework,cloud,lambda,actions
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>TPDP018: Progressive Web Application Development</title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2018/TPDP+-+Episode+18+-+Progressive+Web+Application+Development.mp3
+            </link>
+            <pubDate>Tue, 15 May 2018 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I'm joined by Tara Manicsic who works as a Developer Advocate team at Progress Software. Tara and I spend time discussing Progressive Web Applications (PWA) and how you can be effective building them with service workers, among other things, for mobile devices as well as standard desktop-based web browsers. If you're into developing modern web and mobile applications, getting informed on Progressive Web Application (PWA) development is something you should consider. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2018/05/tpdp-episode-18-progressive-web-application-development/
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2018/TPDP+-+Episode+18+-+Progressive+Web+Application+Development.mp3" length="40426184" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2018/TPDP+-+Episode+18+-+Progressive+Web+Application+Development.mp3
+            </guid>
+            <itunes:duration>42:06</itunes:duration>
+            <itunes:summary>
+                In this episode I'm joined by Tara Manicsic who works as a Developer Advocate team at Progress Software. Tara and I spend time discussing Progressive Web Applications (PWA) and how you can be effective building them with service workers, among other things, for mobile devices as well as standard desktop-based web browsers. If you're into developing modern web and mobile applications, getting informed on Progressive Web Application (PWA) development is something you should consider. A writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2018/05/tpdp-episode-18-progressive-web-application-development/
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                pwa,progressive web app,development,mobile,web,framework,javascript,service worker
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>
+                TPDP019: Automated Software Delivery for Cloud Native Applications
+            </title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2018/TPDP+-+Episode+19+-+Automated+Software+Delivery+for+Cloud-Native+Applications.mp3
+            </link>
+            <pubDate>Sat, 02 Jun 2018 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I'm joined by Jim Clark who works as the Chief Architect at Atomist. Jim and I spend a lot of time discussing how the pipeline model to software delivery can be improved by making it a workflow and event driven model instead with a service like Atomist. The pipeline approach can only get you so far and it is limited in how the appropriate teams can get the necessary notifications to function efficiently. Jim and I explore how to get beyond these common problems. A brief writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2018/06/tpdp-episode-19-automated-software-delivery-cloud-native-applications/
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2018/TPDP+-+Episode+19+-+Automated+Software+Delivery+for+Cloud-Native+Applications.mp3" length="44563562" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2018/TPDP+-+Episode+19+-+Automated+Software+Delivery+for+Cloud-Native+Applications.mp3
+            </guid>
+            <itunes:duration>46:25</itunes:duration>
+            <itunes:summary>
+                In this episode I'm joined by Jim Clark who works as the Chief Architect at Atomist. Jim and I spend a lot of time discussing how the pipeline model to software delivery can be improved by making it a workflow and event driven model instead with a service like Atomist. The pipeline approach can only get you so far and it is limited in how the appropriate teams can get the necessary notifications to function efficiently. Jim and I explore how to get beyond these common problems. A brief writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2018/06/tpdp-episode-19-automated-software-delivery-cloud-native-applications/
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                atomist,pipeline,workflow,event,continuous integration,continuous delivery,monitoring,source
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>TPDP020: GraphQL for API Development</title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2018/TPDP+-+Episode+20+-+GraphQL+for+API+Development.mp3
+            </link>
+            <pubDate>Tue, 07 Aug 2018 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I'm joined by Lee Byron, former Facebook employee, who is one of the co-creators of GraphQL. Coming from RESTful API development, I've run into many pain-points that GraphQL works to alleviate, and is one of the reasons why I've become such an advocate for it for modern development. Lee and I spend a lot of time discussing the fundamentals of GraphQL and how to get started with it in development. Not only are we focusing on the how, but we are also focusing on the why, which is very important when evaluating a new technology and methodology. A brief writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2018/08/tpdp-e20-graphql-api-development/
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2018/TPDP+-+Episode+20+-+GraphQL+for+API+Development.mp3" length="53836823" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2018/TPDP+-+Episode+20+-+GraphQL+for+API+Development.mp3
+            </guid>
+            <itunes:duration>56:04</itunes:duration>
+            <itunes:summary>
+                In this episode I'm joined by Lee Byron, former Facebook employee, who is one of the co-creators of GraphQL. Coming from RESTful API development, I've run into many pain-points that GraphQL works to alleviate, and is one of the reasons why I've become such an advocate for it for modern development. Lee and I spend a lot of time discussing the fundamentals of GraphQL and how to get started with it in development. Not only are we focusing on the how, but we are also focusing on the why, which is very important when evaluating a new technology and methodology. A brief writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2018/08/tpdp-e20-graphql-api-development/
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>graphql,api,restful,facebook,query,json</itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>TPDP021: Developer Evangelism</title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2018/TPDP+-+Episode+21+-+Developer+Evangelism.mp3
+            </link>
+            <pubDate>Mon, 10 Sep 2018 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I'm joined by Matthew Revell, founder of the Developer Relations consultancy organization, Hoopy. Developer Relations, Developer Advocacy, and Developer Evangelism, are relatively new roles at many organizations, but are critical for spreading awareness and getting adoption of any product the organization sells. Matthew shares his experience in Developer Relations, more specifically Developer Evangelism, and what those in the role do on a day-to-day as well as how it benefits the organization and the developers they wish to support. A brief writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2018/09/tpdp-e21-developer-evangelism/
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2018/TPDP+-+Episode+21+-+Developer+Evangelism.mp3" length="43255768" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2018/TPDP+-+Episode+21+-+Developer+Evangelism.mp3
+            </guid>
+            <itunes:duration>45:03</itunes:duration>
+            <itunes:summary>
+                In this episode I'm joined by Matthew Revell, founder of the Developer Relations consultancy organization, Hoopy. Developer Relations, Developer Advocacy, and Developer Evangelism, are relatively new roles at many organizations, but are critical for spreading awareness and getting adoption of any product the organization sells. Matthew shares his experience in Developer Relations, more specifically Developer Evangelism, and what those in the role do on a day-to-day as well as how it benefits the organization and the developers they wish to support. A brief writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2018/09/tpdp-e21-developer-evangelism/
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                developer evangelism,developer advocacy,developer relations,hoopy
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>
+                TPDP022: NoSQL Databases and the Flexibility of a Non-Relational Model
+            </title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2018/TPDP+-+Episode+22+-+NoSQL+Databases+and+the+Flexibility+of+a+Non-Relational+Model.mp3
+            </link>
+            <pubDate>Tue, 02 Oct 2018 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I'm joined by Matt Groves, Senior Developer Advocate at the NoSQL database company, Couchbase. The focus of this episode is to become familiar with NoSQL and where it makes sense to use it in your projects, both new and old. Matt and explore numerous NoSQL database technologies which include Graph, Document, Key-Value, and Columnar, and look at the possible advantages they bring over the RDBMS alternative. I know Matt Groves from my time working with him at Couchbase. While Couchbase will be included in the episode, it is by no means the focus of the episode. A brief writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2018/10/tpdp-e22-nosql-databases-flexibility-non-relational-model/
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2018/TPDP+-+Episode+22+-+NoSQL+Databases+and+the+Flexibility+of+a+Non-Relational+Model.mp3" length="43493587" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2018/TPDP+-+Episode+22+-+NoSQL+Databases+and+the+Flexibility+of+a+Non-Relational+Model.mp3
+            </guid>
+            <itunes:duration>45:18</itunes:duration>
+            <itunes:summary>
+                In this episode I'm joined by Matt Groves, Senior Developer Advocate at the NoSQL database company, Couchbase. The focus of this episode is to become familiar with NoSQL and where it makes sense to use it in your projects, both new and old. Matt and explore numerous NoSQL database technologies which include Graph, Document, Key-Value, and Columnar, and look at the possible advantages they bring over the RDBMS alternative. I know Matt Groves from my time working with him at Couchbase. While Couchbase will be included in the episode, it is by no means the focus of the episode. A brief writeup to this episode can be found via https://www.thepolyglotdeveloper.com/2018/10/tpdp-e22-nosql-databases-flexibility-non-relational-model/
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                nosql,database,rdbms,document,columnar,tabular,key-value,graph,couchbase
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>
+                TPDP023: Being a Freelance Developer Contractor or Consultant
+            </title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2019/TPDP+-+Episode+23+-+Being+a+Freelance+Developer+Contractor+or+Consultant.mp3
+            </link>
+            <pubDate>Fri, 25 Jan 2019 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I'm joined by Nolan Erck who is a freelance developer consultant and is the owner of South of Shasta Consulting, located in Sacramento, California. The focus of this episode is to dive deep into freelance development and some of the things to consider versus working as a full-time employee for a typical organization. This is valuable to anyone looking to transition from their current developer career or to anyone who is just now entering the work force and is looking for options because Nolan answers all the questions based on his first-hand experience. A brief writetup to this episode can be found via https://www.thepolyglotdeveloper.com/2019/01/tpdp-e23-being-freelance-developer-contractor-consultant/
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2019/TPDP+-+Episode+23+-+Being+a+Freelance+Developer+Contractor+or+Consultant.mp3" length="42542730" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2019/TPDP+-+Episode+23+-+Being+a+Freelance+Developer+Contractor+or+Consultant.mp3
+            </guid>
+            <itunes:duration>44:19</itunes:duration>
+            <itunes:summary>
+                In this episode I'm joined by Nolan Erck who is a freelance developer consultant and is the owner of South of Shasta Consulting, located in Sacramento, California. The focus of this episode is to dive deep into freelance development and some of the things to consider versus working as a full-time employee for a typical organization. This is valuable to anyone looking to transition from their current developer career or to anyone who is just now entering the work force and is looking for options because Nolan answers all the questions based on his first-hand experience. A brief writetup to this episode can be found via https://www.thepolyglotdeveloper.com/2019/01/tpdp-e23-being-freelance-developer-contractor-consultant/
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                freelance,consultant,contractor,developer,project manager,support
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>TPDP024: Mobile Application Security</title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2019/TPDP+-+Episode+24+-+Mobile+Application+Security.mp3
+            </link>
+            <pubDate>Tue, 12 Feb 2019 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I'm joined by first time guest, Rob Lauer, and repeat guest TJ VanToll, to talk about securing mobile applications from multiple perspectives. Both Rob and TJ work for Progress, the core contributors of the mobile development framework, NativeScript, but NativeScript is by no means the focus of the episode. The focus is around security, and that can mean numerous things ranging from code security, the security of any data on the device at rest, and the security of data being sent to remote web services. In this episode we break down each of these categories and give potential ideas to get beyond them. A brief writetup to this episode can be found via https://www.thepolyglotdeveloper.com/2019/02/tpdp-e24-mobile-application-security/
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2019/TPDP+-+Episode+24+-+Mobile+Application+Security.mp3" length="38666994" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2019/TPDP+-+Episode+24+-+Mobile+Application+Security.mp3
+            </guid>
+            <itunes:duration>40:16</itunes:duration>
+            <itunes:summary>
+                In this episode I'm joined by first time guest, Rob Lauer, and repeat guest TJ VanToll, to talk about securing mobile applications from multiple perspectives. Both Rob and TJ work for Progress, the core contributors of the mobile development framework, NativeScript, but NativeScript is by no means the focus of the episode. The focus is around security, and that can mean numerous things ranging from code security, the security of any data on the device at rest, and the security of data being sent to remote web services. In this episode we break down each of these categories and give potential ideas to get beyond them. A brief writetup to this episode can be found via https://www.thepolyglotdeveloper.com/2019/02/tpdp-e24-mobile-application-security/
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                security,minification,uglification,obsfucation,https,ssl,cipher,encryption,database
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>
+                TPDP025: Securing Applications with a Second Factor of Authentication
+            </title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2019/TPDP+-+Episode+25+-+Securing+Applications+with+a+Second+Factor+of+Authentication.mp3
+            </link>
+            <pubDate>Sat, 02 Mar 2019 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I'm joined by Luke Walker who is a Solutions Architect at Yubico, the company that creates security hardware tokens such as the YubiKey. Security is a big deal in for both end users who are supplying data and developers who are working to keep that data safe. Luke and I spend some time in this episode discussing some of the various two-factor authentication (2FA) mechenisms that can be implemented in web applications and where some of these mechenisms fall short. In addition to things like TOTP, SMS, we also dive deep into the FIDO and FIDO2 protocol which Yubico implements and is pushing as a web standard. A brief writetup to this episode can be found via https://www.thepolyglotdeveloper.com/2019/03/tpdp-e25-securing-applications-second-factor-authentication/
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2019/TPDP+-+Episode+25+-+Securing+Applications+with+a+Second+Factor+of+Authentication.mp3" length="41733979" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2019/TPDP+-+Episode+25+-+Securing+Applications+with+a+Second+Factor+of+Authentication.mp3
+            </guid>
+            <itunes:duration>43:28</itunes:duration>
+            <itunes:summary>
+                In this episode I'm joined by Luke Walker who is a Solutions Architect at Yubico, the company that creates security hardware tokens such as the YubiKey. Security is a big deal in for both end users who are supplying data and developers who are working to keep that data safe. Luke and I spend some time in this episode discussing some of the various two-factor authentication (2FA) mechenisms that can be implemented in web applications and where some of these mechenisms fall short. In addition to things like TOTP, SMS, we also dive deep into the FIDO and FIDO2 protocol which Yubico implements and is pushing as a web standard. A brief writetup to this episode can be found via https://www.thepolyglotdeveloper.com/2019/03/tpdp-e25-securing-applications-second-factor-authentication/
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                security,2fa,yubico,yubikey,authentication,fido,fido2,sms,totp
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>TPDP026: Game Development with Houdini</title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2019/TPDP+-+Episode+26+-+Game+Development+with+Houdini.mp3
+            </link>
+            <pubDate>Wed, 10 Apr 2019 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I'm joined by Ben Mears who works for SideFX, a visual effects company for the gaming and film industry. The focus of this particular episode is around Houdini, a popular tool used within both industries. However, we're going to put a gaming spin on the episode. Creating visual effects for games can be complicated and time consuming, but they don't have to be. With Houdini, you can use procedural, node-based workflows, for generating game assets and terrains. Ben Mears and I explore what exactly this means in this first ever gaming episode of the podcast featuring Houdini. A brief writetup to this episode can be found via https://www.thepolyglotdeveloper.com/2019/04/tpdp-e26-game-development-houdini/
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2019/TPDP+-+Episode+26+-+Game+Development+with+Houdini.mp3" length="33935278" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2019/TPDP+-+Episode+26+-+Game+Development+with+Houdini.mp3
+            </guid>
+            <itunes:duration>35:21</itunes:duration>
+            <itunes:summary>
+                In this episode I'm joined by Ben Mears who works for SideFX, a visual effects company for the gaming and film industry. The focus of this particular episode is around Houdini, a popular tool used within both industries. However, we're going to put a gaming spin on the episode. Creating visual effects for games can be complicated and time consuming, but they don't have to be. With Houdini, you can use procedural, node-based workflows, for generating game assets and terrains. Ben Mears and I explore what exactly this means in this first ever gaming episode of the podcast featuring Houdini. A brief writetup to this episode can be found via https://www.thepolyglotdeveloper.com/2019/04/tpdp-e26-game-development-houdini/
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                houdini,sidefx,game development,game design,procedural,node-based,workflow
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>TPDP027: Static Website Generation with Hugo</title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2019/TPDP+-+Episode+27+-+Static+Website+Generation+with+Hugo.mp3
+            </link>
+            <pubDate>Thu, 09 May 2019 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I'm joined by Bjørn Erik Pedersen, the core maintainer of Hugo, a popular static site generator built with the Go programming language. Content management systems can be clunky because of all the layers involved in the stack. These systems usually have a database and backend technology in place before the content is ever sent to the browser for rendering. Not to mention, the more layers you are working with, the higher chance you'll be attacked through a bug or exploit. This is where static site generation comes into play. Instead of working with a database and backend technology, all content is exported to HTML, CSS, and JavaScript. The content can be written in numerous formats, one of which is Markdown. Static site generation is made possible through themes and templates, all of which you'll learn about in this episode with Bjørn Erik. A brief writetup to this episode can be found via https://www.thepolyglotdeveloper.com/2019/05/tpdp-e27-static-website-generation-hugo/
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2019/TPDP+-+Episode+27+-+Static+Website+Generation+with+Hugo.mp3" length="50198906" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2019/TPDP+-+Episode+27+-+Static+Website+Generation+with+Hugo.mp3
+            </guid>
+            <itunes:duration>52:17</itunes:duration>
+            <itunes:summary>
+                In this episode I'm joined by Bjørn Erik Pedersen, the core maintainer of Hugo, a popular static site generator built with the Go programming language. Content management systems can be clunky because of all the layers involved in the stack. These systems usually have a database and backend technology in place before the content is ever sent to the browser for rendering. Not to mention, the more layers you are working with, the higher chance you'll be attacked through a bug or exploit. This is where static site generation comes into play. Instead of working with a database and backend technology, all content is exported to HTML, CSS, and JavaScript. The content can be written in numerous formats, one of which is Markdown. Static site generation is made possible through themes and templates, all of which you'll learn about in this episode with Bjørn Erik. A brief writetup to this episode can be found via https://www.thepolyglotdeveloper.com/2019/05/tpdp-e27-static-website-generation-hugo/
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                hugo,golang,go,static site generation,html,css,javascript
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>
+                TPDP028: Coding Bootcamps vs Traditional Computer Science Degrees
+            </title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2019/TPDP+-+Episode+28+-+Coding+Bootcamps+vs+Traditional+Computer+Science+Degrees.mp3
+            </link>
+            <pubDate>Mon, 10 Jun 2019 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I'm joined by Ben Nelson, co-founder of Lambda School, an increasingly popular coding bootcamp with a slightly different structure and monetization strategy than the others. Computer Science programs at a university are known to be tough, painful, and exhausting. This is because of the nature of the material, duration of the program, and the fact that you're probably going to be challenged with difficult classes outside the direct scope of software development. This is where coding schools such as Lambda School come into play because these are programs that are designed to teach you relevant workforce skills in short amounts of time. Ben Nelson experienced a traditional university, switched to a popular coding bootcamp, and then started his own coding bootcamp because of the experience it was giving students. I personally only ever completed a Computer Science program at a university, so this episode shares perspectives and information from both points of view. A brief writetup to this episode can be found via https://www.thepolyglotdeveloper.com/2019/06/tpdp-e28-coding-bootcamps-vs-traditional-computer-science-degrees/
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2019/TPDP+-+Episode+28+-+Coding+Bootcamps+vs+Traditional+Computer+Science+Degrees.mp3" length="69518442" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2019/TPDP+-+Episode+28+-+Coding+Bootcamps+vs+Traditional+Computer+Science+Degrees.mp3
+            </guid>
+            <itunes:duration>48:16</itunes:duration>
+            <itunes:summary>
+                In this episode I'm joined by Ben Nelson, co-founder of Lambda School, an increasingly popular coding bootcamp with a slightly different structure and monetization strategy than the others. Computer Science programs at a university are known to be tough, painful, and exhausting. This is because of the nature of the material, duration of the program, and the fact that you're probably going to be challenged with difficult classes outside the direct scope of software development. This is where coding schools such as Lambda School come into play because these are programs that are designed to teach you relevant workforce skills in short amounts of time. Ben Nelson experienced a traditional university, switched to a popular coding bootcamp, and then started his own coding bootcamp because of the experience it was giving students. I personally only ever completed a Computer Science program at a university, so this episode shares perspectives and information from both points of view. A brief writetup to this episode can be found via https://www.thepolyglotdeveloper.com/2019/06/tpdp-e28-coding-bootcamps-vs-traditional-computer-science-degrees/
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                lambda school,hack reactor,code academy,galvanize,computer science,bootcamp,degree
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>TPDP029: Asynchronous JavaScript Development</title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2019/TPDP+-+Episode+29+-+Asynchronous+JavaScript+Development.mp3
+            </link>
+            <pubDate>Mon, 08 Jul 2019 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I'm joined by Corbin Crutchley, a seasoned JavaScript developer with extensive knowledge of various frameworks such as Vue.js, Angular, and React.js. Corbin also operates his own development blog, Unicorn Utterances. The topic of this episode is around asynchronous development using JavaScript and no particular framework. If you're coming from other programming languages, the concept of promises, callbacks, async / await, and similar all might seem daunting when it comes to working with remote web services or even resource intensive proccesses. Corbin and I shed some light into the world of doing things asynchronously and hopefully clear things up and even make the concepts easier to wrap your head around. A brief writetup to this episode can be found via https://www.thepolyglotdeveloper.com/2019/07/tpdp-e29-asynchronous-javascript-development/
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2019/TPDP+-+Episode+29+-+Asynchronous+JavaScript+Development.mp3" length="50793661" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2019/TPDP+-+Episode+29+-+Asynchronous+JavaScript+Development.mp3
+            </guid>
+            <itunes:duration>35:16</itunes:duration>
+            <itunes:summary>
+                In this episode I'm joined by Corbin Crutchley, a seasoned JavaScript developer with extensive knowledge of various frameworks such as Vue.js, Angular, and React.js. Corbin also operates his own development blog, Unicorn Utterances. The topic of this episode is around asynchronous development using JavaScript and no particular framework. If you're coming from other programming languages, the concept of promises, callbacks, async / await, and similar all might seem daunting when it comes to working with remote web services or even resource intensive proccesses. Corbin and I shed some light into the world of doing things asynchronously and hopefully clear things up and even make the concepts easier to wrap your head around. A brief writetup to this episode can be found via https://www.thepolyglotdeveloper.com/2019/07/tpdp-e29-asynchronous-javascript-development/
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                javascript,async,await,promise,callback,parallel,asynchronous,timeout
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>
+                TPDP030: Building a Developer Community with Meetups
+            </title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2019/TPDP+-+Episode+30+-+Building+a+Developer+Community+with+Meetups.mp3
+            </link>
+            <pubDate>Fri, 09 Aug 2019 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I'm joined by Vijay Menon, organizer of the JavaScriptLA and JavaScript South Bay Meetup groups in Southern California. The topic of this episode is around the importance of being a part of a developer community and building your own if one doesn't already exist in your local area. In this episode you'll hear success stories that Vijay has had at his very large and successful developer communities and the work that is involved for building and managing your own on Meetup.com. A brief writetup to this episode can be found via https://www.thepolyglotdeveloper.com/2019/08/tpdp-e30-building-developer-community-with-meetups/
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2019/TPDP+-+Episode+30+-+Building+a+Developer+Community+with+Meetups.mp3" length="76330758" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2019/TPDP+-+Episode+30+-+Building+a+Developer+Community+with+Meetups.mp3
+            </guid>
+            <itunes:duration>53:00</itunes:duration>
+            <itunes:summary>
+                In this episode I'm joined by Vijay Menon, organizer of the JavaScriptLA and JavaScript South Bay Meetup groups in Southern California. The topic of this episode is around the importance of being a part of a developer community and building your own if one doesn't already exist in your local area. In this episode you'll hear success stories that Vijay has had at his very large and successful developer communities and the work that is involved for building and managing your own on Meetup.com. A brief writetup to this episode can be found via https://www.thepolyglotdeveloper.com/2019/08/tpdp-e30-building-developer-community-with-meetups/
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>
+                meetup,community,eventbrite,networking,technology,development,programming,education
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>
+                TPDP031: Developer Education through Books, Video Courses, and Conferences
+            </title>
+            <link>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2019/TPDP+-+Episode+31+-+Developer+Education+through+Books%2C+Video+Courses%2C+and+Conferences.mp3
+            </link>
+            <pubDate>Thu, 12 Sep 2019 16:00:00 PDT</pubDate>
+            <description>
+                In this episode I'm joined by Adrienne Tacke, author of Coding for Kids: Python, and Alex Ziskind, owner of the NativeScripting course platform. The topic of this episode is broken into two parts. The first is around improving your skills as a developer through different education avenues such as eBooks, video courses, conferences, and other events. The three of us on the show are developers, like many of the listeners. We each have our own methods towards learning new development technologies or deepening our skills with the technologies we're already using. Some of these methods might not be obvious and it's something we want to share. The second part of the episode is around taking the developer skills that you have and then using them to teach others through writing your own eBooks or courses, and what it looks like in terms of hardware, funding, and similar. A brief writetup to this episode can be found via https://www.thepolyglotdeveloper.com/2019/09/tpdp-e31-developer-education-books-video-courses-conferences/
+            </description>
+            <enclosure url="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2019/TPDP+-+Episode+31+-+Developer+Education+through+Books%2C+Video+Courses%2C+and+Conferences.mp3" length="72407376" type="audio/mpeg"/>
+            <guid>
+                https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/data/2019/TPDP+-+Episode+31+-+Developer+Education+through+Books%2C+Video+Courses%2C+and+Conferences.mp3
+            </guid>
+            <itunes:duration>50:17</itunes:duration>
+            <itunes:summary>
+                In this episode I'm joined by Adrienne Tacke, author of Coding for Kids: Python, and Alex Ziskind, owner of the NativeScripting course platform. The topic of this episode is broken into two parts. The first is around improving your skills as a developer through different education avenues such as eBooks, video courses, conferences, and other events. The three of us on the show are developers, like many of the listeners. We each have our own methods towards learning new development technologies or deepening our skills with the technologies we're already using. Some of these methods might not be obvious and it's something we want to share. The second part of the episode is around taking the developer skills that you have and then using them to teach others through writing your own eBooks or courses, and what it looks like in terms of hardware, funding, and similar. A brief writetup to this episode can be found via https://www.thepolyglotdeveloper.com/2019/09/tpdp-e31-developer-education-books-video-courses-conferences/
+            </itunes:summary>
+            <itunes:image href="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/images/the-polyglot-developer-podcast.png"/>
+            <itunes:keywords>books,video courses,conferences,education</itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+    </channel>
+</rss>
