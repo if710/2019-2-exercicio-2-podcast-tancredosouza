@@ -1,11 +1,14 @@
 package br.ufpe.cin.android.podcast
 
+import android.graphics.Bitmap
+import org.jetbrains.anko.doAsync
 import org.xmlpull.v1.XmlPullParser
 import org.xmlpull.v1.XmlPullParserException
 import org.xmlpull.v1.XmlPullParserFactory
 
 import java.io.IOException
 import java.io.StringReader
+import java.net.URL
 import java.util.ArrayList
 
 object Parser {
@@ -100,6 +103,7 @@ object Parser {
         var pubDate: String? = null
         var description: String? = null
         var downloadLink: String? = null
+        var imageLink: String? = null
         parser.require(XmlPullParser.START_TAG, null, "item")
         while (parser.next() != XmlPullParser.END_TAG) {
             if (parser.eventType != XmlPullParser.START_TAG) {
@@ -116,11 +120,20 @@ object Parser {
                 description = readData(parser, "description")
             } else if (name == "guid") {
                 downloadLink = readData(parser, "guid")
+            } else if (name == "itunes:image") {
+                imageLink = readImage(parser)
+                skip(parser)
             } else {
                 skip(parser)
             }
         }
-        return ItemFeed(title!!, link!!, pubDate!!, description!!, downloadLink!!)
+        return ItemFeed(title!!, link!!, pubDate!!, description!!, downloadLink!!, imageLink!!)
+    }
+
+    @Throws(XmlPullParserException::class, IOException::class)
+    fun readImage(parser:XmlPullParser): String {
+        val imageLink: String? = parser.getAttributeValue(null, "href")
+        return imageLink!!
     }
 
     // Processa tags de forma parametrizada no feed.
