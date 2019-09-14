@@ -25,20 +25,30 @@ class MainActivity : AppCompatActivity() {
 
             val rssFeed = URL(xmlDownloadLink).readText()
 
-            itemFeeds = Parser.parse(rssFeed)
+            saveToDatabase(Parser.parse(rssFeed))
 
-            uiThread {
+            itemFeeds = getFromDatabase()
+
+                uiThread {
                 listRecyclerView.layoutManager = LinearLayoutManager(this@MainActivity)
                 listRecyclerView.adapter = ItemFeedsAdapter(itemFeeds!!, this@MainActivity)
                 listRecyclerView.addItemDecoration(
                     DividerItemDecoration(this@MainActivity, LinearLayoutManager.VERTICAL))
             }
-            
-            val database = ItemFeedsDatabase.getDatabase(this@MainActivity)
-
-            itemFeeds!!.forEach {
-                itemFeed -> database.itemFeedsDao().insertItemFeeds(itemFeed)
-            }
         }
+    }
+
+    fun saveToDatabase(itemFeeds: List<ItemFeed>?) {
+        val database = ItemFeedsDatabase.getDatabase(this@MainActivity)
+
+        itemFeeds!!.forEach {
+                itemFeed -> database.itemFeedsDao().insertItemFeeds(itemFeed)
+        }
+    }
+
+    fun getFromDatabase(): List<ItemFeed> {
+        val database = ItemFeedsDatabase.getDatabase(this@MainActivity)
+
+        return database.itemFeedsDao().getAllItemFeeds()
     }
 }

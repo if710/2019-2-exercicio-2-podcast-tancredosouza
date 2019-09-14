@@ -12,7 +12,7 @@ interface ItemFeedDao {
     fun insertItemFeeds(vararg itemFeeds:ItemFeed)
 
     @Query("SELECT * FROM itemFeeds")
-    fun getAllItemFeeds() : Array<ItemFeed>
+    fun getAllItemFeeds() : List<ItemFeed>
 
     @Query("SELECT * FROM itemFeeds WHERE title LIKE :q")
     fun getItemFeed(q : String) : ItemFeed
