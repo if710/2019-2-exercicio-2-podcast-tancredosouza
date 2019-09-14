@@ -3,8 +3,10 @@ package br.ufpe.cin.android.podcast
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import br.ufpe.cin.android.podcast.database.ItemFeedsDatabase
+import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_episode_detail.*
 import org.jetbrains.anko.doAsync
+import org.jetbrains.anko.uiThread
 
 class EpisodeDetailActivity : AppCompatActivity() {
 
@@ -20,6 +22,10 @@ class EpisodeDetailActivity : AppCompatActivity() {
 
             episodePubDate.text = itemFeed.pubDate
             episodeDescription.text = itemFeed.description
+
+            uiThread{
+                Picasso.get().load(itemFeed.imageLink).into(episodeImage)
+            }
         }
     }
 }

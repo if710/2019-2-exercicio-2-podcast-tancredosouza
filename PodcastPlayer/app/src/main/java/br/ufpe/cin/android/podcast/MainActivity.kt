@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
                 listRecyclerView.addItemDecoration(
                     DividerItemDecoration(this@MainActivity, LinearLayoutManager.VERTICAL))
             }
-
+            
             val database = ItemFeedsDatabase.getDatabase(this@MainActivity)
 
             itemFeeds!!.forEach {
