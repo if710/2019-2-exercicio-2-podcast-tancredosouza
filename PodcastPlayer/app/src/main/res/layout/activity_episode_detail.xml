@@ -31,7 +31,7 @@
     <TextView
         android:id="@+id/episodeDescription"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="128sp"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/episodePubDate"
         app:layout_constraintEnd_toEndOf="parent"

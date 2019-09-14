@@ -37,7 +37,6 @@ class ItemFeedViewHolder (item: View) : RecyclerView.ViewHolder(item), View.OnCl
         val intent = Intent(v.context, EpisodeDetailActivity::class.java)
 
         intent.putExtra("item_title", podcastTitleView!!.text)
-        intent.putExtra("item_pubDate", podcastPubDateView!!.text)
 
         ContextCompat.startActivity(v.context, intent, null)
     }

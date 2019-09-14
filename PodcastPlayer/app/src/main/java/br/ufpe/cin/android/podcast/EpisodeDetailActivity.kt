@@ -2,7 +2,9 @@ package br.ufpe.cin.android.podcast
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.TextView
+import br.ufpe.cin.android.podcast.database.ItemFeedsDatabase
+import kotlinx.android.synthetic.main.activity_episode_detail.*
+import org.jetbrains.anko.doAsync
 
 class EpisodeDetailActivity : AppCompatActivity() {
 
@@ -10,8 +12,14 @@ class EpisodeDetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_episode_detail)
 
-        val episodeTitle = findViewById<TextView>(R.id.episodeName)
+        episodeName.text = intent.getStringExtra("item_title")
+        doAsync {
+            val database = ItemFeedsDatabase.getDatabase(this@EpisodeDetailActivity)
 
-        episodeTitle.text = intent.getStringExtra("item_title")
+            val itemFeed = database.itemFeedsDao().getItemFeed(episodeName.text!!.toString())
+
+            episodePubDate.text = itemFeed.pubDate
+            episodeDescription.text = itemFeed.description
+        }
     }
 }

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import br.ufpe.cin.android.podcast.adapters.ItemFeedsAdapter
+import br.ufpe.cin.android.podcast.database.ItemFeedsDatabase
 import kotlinx.android.synthetic.main.activity_main.*
 import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.uiThread
@@ -31,6 +32,12 @@ class MainActivity : AppCompatActivity() {
                 listRecyclerView.adapter = ItemFeedsAdapter(itemFeeds!!, this@MainActivity)
                 listRecyclerView.addItemDecoration(
                     DividerItemDecoration(this@MainActivity, LinearLayoutManager.VERTICAL))
+            }
+
+            val database = ItemFeedsDatabase.getDatabase(this@MainActivity)
+
+            itemFeeds!!.forEach {
+                itemFeed -> database.itemFeedsDao().insertItemFeeds(itemFeed)
             }
         }
     }
