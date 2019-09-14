@@ -13,9 +13,10 @@ import androidx.recyclerview.widget.RecyclerView
 import br.ufpe.cin.android.podcast.EpisodeDetailActivity
 import br.ufpe.cin.android.podcast.ItemFeed
 import br.ufpe.cin.android.podcast.R
+import br.ufpe.cin.android.podcast.holders.ItemFeedViewHolder
 
 class ItemFeedsAdapter(private val itemFeeds: List<ItemFeed>, private val context: Context):
-    RecyclerView.Adapter<ItemFeedsAdapter.ItemFeedViewHolder>()  {
+    RecyclerView.Adapter<ItemFeedViewHolder>()  {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemFeedViewHolder {
         val itemFeedViewInflater =
             LayoutInflater.from(context).inflate(R.layout.itemlista, parent, false)
@@ -30,35 +31,4 @@ class ItemFeedsAdapter(private val itemFeeds: List<ItemFeed>, private val contex
     }
 
     override fun getItemCount() = itemFeeds.size
-
-    class ItemFeedViewHolder (item: View) : RecyclerView.ViewHolder(item), View.OnClickListener {
-        var podcastTitleView: TextView? = null
-        var podcastPubDateView: TextView? = null
-        var podcastDownloadLinkView: Button? = null
-
-        init {
-            podcastTitleView = itemView.findViewById(R.id.item_title)
-            podcastPubDateView = itemView.findViewById(R.id.item_date)
-            podcastDownloadLinkView = itemView.findViewById(R.id.item_action)
-            item.setOnClickListener(this)
-        }
-
-        fun bind(itemFeed : ItemFeed, context: Context) {
-            podcastTitleView?.text = itemFeed.title
-            podcastPubDateView?.text = itemFeed.pubDate
-
-            podcastDownloadLinkView!!.setOnClickListener {
-                Toast.makeText(context, "Baixando link = ${itemFeed.downloadLink}", Toast.LENGTH_SHORT).show()
-            }
-        }
-
-        override fun onClick(v: View) {
-            val intent = Intent(v.context, EpisodeDetailActivity::class.java)
-
-            intent.putExtra("item_title", podcastTitleView!!.text)
-            intent.putExtra("item_pubDate", podcastPubDateView!!.text)
-
-            startActivity(v.context, intent, null)
-        }
-    }
 }
