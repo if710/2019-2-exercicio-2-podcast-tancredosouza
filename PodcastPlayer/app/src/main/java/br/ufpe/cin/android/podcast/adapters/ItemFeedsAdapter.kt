@@ -36,7 +36,6 @@ class ItemFeedsAdapter(private val itemFeeds: List<ItemFeed>, private val contex
         var podcastPubDateView: TextView? = null
         var podcastDownloadLinkView: Button? = null
 
-
         init {
             podcastTitleView = itemView.findViewById(R.id.item_title)
             podcastPubDateView = itemView.findViewById(R.id.item_date)
@@ -55,6 +54,10 @@ class ItemFeedsAdapter(private val itemFeeds: List<ItemFeed>, private val contex
 
         override fun onClick(v: View) {
             val intent = Intent(v.context, EpisodeDetailActivity::class.java)
+
+            intent.putExtra("item_title", podcastTitleView!!.text)
+            intent.putExtra("item_pubDate", podcastPubDateView!!.text)
+
             startActivity(v.context, intent, null)
         }
     }
