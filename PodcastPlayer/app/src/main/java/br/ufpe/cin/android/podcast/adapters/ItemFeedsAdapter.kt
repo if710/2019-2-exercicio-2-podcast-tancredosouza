@@ -38,6 +38,7 @@ class ItemFeedsAdapter(private val itemFeeds: List<ItemFeed>, private val contex
             podcastTitleView = itemView.findViewById(R.id.item_title)
             podcastPubDateView = itemView.findViewById(R.id.item_date)
             podcastDownloadLinkView = itemView.findViewById(R.id.item_action)
+            item.setOnClickListener(this)
         }
 
         fun bind(itemFeed : ItemFeed, context: Context) {
