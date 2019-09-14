@@ -1,13 +1,16 @@
 package br.ufpe.cin.android.podcast.adapters
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
+import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
+import br.ufpe.cin.android.podcast.EpisodeDetailActivity
 import br.ufpe.cin.android.podcast.ItemFeed
 import br.ufpe.cin.android.podcast.R
 
@@ -51,8 +54,8 @@ class ItemFeedsAdapter(private val itemFeeds: List<ItemFeed>, private val contex
         }
 
         override fun onClick(v: View) {
-            val position = adapterPosition
-            Toast.makeText(v.context, "Clicou no item da posição: $position", Toast.LENGTH_SHORT).show()
+            val intent = Intent(v.context, EpisodeDetailActivity::class.java)
+            startActivity(v.context, intent, null)
         }
     }
 }
