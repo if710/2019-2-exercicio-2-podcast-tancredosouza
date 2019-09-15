@@ -20,23 +20,24 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         doAsync {
-            val xmlDownloadLink =
-                "https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/podcast.xml"
-
-            val rssFeed = URL(xmlDownloadLink).readText()
+            val rssFeed = downloadXMLFile()
 
             saveToDatabase(Parser.parse(rssFeed))
 
             itemFeeds = getFromDatabase()
 
-                uiThread {
-                listRecyclerView.layoutManager = LinearLayoutManager(this@MainActivity)
-                listRecyclerView.adapter = ItemFeedsAdapter(itemFeeds!!, this@MainActivity)
-                listRecyclerView.addItemDecoration(
-                    DividerItemDecoration(this@MainActivity, LinearLayoutManager.VERTICAL))
+            uiThread {
+                setupRecyclerView()
             }
         }
     }
+
+    fun downloadXMLFile(): String {
+        val xmlDownloadLink = getString(R.string.download_link)
+
+        return URL(xmlDownloadLink).readText()
+    }
+
 
     fun saveToDatabase(itemFeeds: List<ItemFeed>?) {
         val database = ItemFeedsDatabase.getDatabase(this@MainActivity)
@@ -50,5 +51,12 @@ class MainActivity : AppCompatActivity() {
         val database = ItemFeedsDatabase.getDatabase(this@MainActivity)
 
         return database.itemFeedsDao().getAllItemFeeds()
+    }
+
+    fun setupRecyclerView() {
+        listRecyclerView.layoutManager = LinearLayoutManager(this@MainActivity)
+        listRecyclerView.adapter = ItemFeedsAdapter(itemFeeds!!, this@MainActivity)
+        listRecyclerView.addItemDecoration(
+            DividerItemDecoration(this@MainActivity, LinearLayoutManager.VERTICAL))
     }
 }
